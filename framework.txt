@@ -1,0 +1,12 @@
+# users of the application 
+operations_officer
+HR_officers
+Employees
+C.E.O
+Head_admin
+
+# data to be collected 
+Employees data
+guarantors data 
+location 
+hr officers
