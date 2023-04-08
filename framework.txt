@@ -5,8 +5,46 @@ Employees
 C.E.O
 Head_admin
 
-# data to be collected 
-Employees data
-guarantors data 
-location 
-hr officers
+# superuser 
+name = CEO
+password = CEO@123
+EMAIL = ceo@hrportal.com
+
+
+# pseudocode for the project 
+purpose of project 
+- get Employees data for respective heads
+- populate with google forms api 
+
+BEGIN 
+
+get all Employees data. PERMISSIONS TO C.E.O, HR_officers AND Head_admin 
+VIEW A PAGE TO REPRESENT ALL Employees 
+    
+if not:
+    get a single employee. PERMISSIONS TO C.E.O, HR_officers AND Head_admin
+VIEW A PAGE TO REPRESENT AN Employees 
+
+
+if guarantors is available:
+    get all guarantors PERMISSIONS TO C.E.O, HR_officers AND Head_admin
+VIEW A PAGE TO REPRESENT ALL guarantors 
+
+
+if not:
+     get a single guarantor PERMISSIONS TO C.E.O, HR_officers AND Head_admin
+VIEW A PAGE TO REPRESENT A single guarantor 
+
+END
+
+BEGIN
+IF THE LOCATION IS CLOSER TO AN HR_officers LOCATION:
+    PUSH TO THAT HR_officers
+
+ELSE PUSH NOT available. 
+
+END
+
+
+
+
