@@ -45,6 +45,42 @@ ELSE PUSH NOT available.
 
 END
 
+implementation of a clocking system
+
+"""
+i am building a clocking system that takes in time and outputs the time in hours, minutes, and seconds.
+its going to help the finance department to keep track of the time, and analyze the pay for employees. 
+
+from the backend:
+
+class employee:
+    -name of employee
+    -time in hours
+    -time in minutes
+    -time in seconds
+
+class pay:
+    - department name
+    - department hourly rate
+    @- hours worked
+    - overtime
+    -overtime rate
+    
+
+from the frontend:
+
+-display the time upon arrival 
+-display the hours worked
+-display the total pay
+-display the overtime
+
+-how to build it:
+integrate into the django project
+integrate google authentication and authorization into the django project
+integrate with google docs from database for downloads
+
+
+
 
 
 
