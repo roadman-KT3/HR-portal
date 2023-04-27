@@ -2,8 +2,8 @@
 An HR portal link.
 
 # description 
-this is a simple CRUD application that models a simple Human Resource firm business operations.
-Using Django and Django rest Framework,it is a design of how data is created, read, modified and used in the busines. 
+this is a simple CRUD application that models a Human Resource firm business operations.
+Using Python and Django rest Framework,it is a design of how data is created, read, modified and used in the business. 
 A Basic and simple Web appliation to be used by the firm to facilitate business operations. 
 
 ## Requirements 
